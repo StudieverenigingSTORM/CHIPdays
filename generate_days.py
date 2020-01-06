@@ -9,7 +9,7 @@ offset_thursday_days = 3*7
 
 saterday = datetime.datetime.strptime(start_saterday, "%d-%m-%Y")
 with open('./README.md','w') as f:
-    f.write('# CHIPdays\n\nThis is an indication as certain holidays are not considered\n')
+    f.write('# CHIPdays\n\nThis is an indication as certain holidays are not considered\n\n')
     f.write('Saterday | Thursday\n')
     f.write('--- | ---\n')
     for i in range(12):
