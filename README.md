@@ -1,6 +1,7 @@
 # CHIPdays
 
 This is an indication as certain holidays are not considered
+
 Saterday | Thursday
 --- | ---
 27/12/2019 | 22/01/2020
