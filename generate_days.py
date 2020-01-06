@@ -11,9 +11,9 @@ saterday = datetime.datetime.strptime(start_saterday, "%d-%m-%Y")
 with open('./README.md','w') as f:
     f.write('# CHIPdays\n\nThis is an indication as certain holidays are not considered\n')
     f.write('Saterday | Thursday\n')
-    f.write('--- | --- | ---\n')
+    f.write('--- | ---\n')
     for i in range(12):
         f.write(datetime.datetime.strftime(saterday + datetime.timedelta(days=mutation_saterday_days*i), "%d/%m/%Y"))
-        f.write('|')
+        f.write(' | ')
         f.write(datetime.datetime.strftime(saterday + datetime.timedelta(days=5+offset_thursday_days+mutation_saterday_days*i), "%d/%m/%Y"))
         f.write('\n')
