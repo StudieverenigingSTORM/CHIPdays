@@ -1,6 +1,6 @@
 import datetime
 
-start_saturday = "28-12-2019"
+start_saturday = "14-12-2019"
 start_thursday = None
 mutation_saturday_days = 6*7
 mutation_thursday_days = 6*7
